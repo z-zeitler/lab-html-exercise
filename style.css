@@ -37,12 +37,17 @@ header > div {
 
 
 
+  .logo {
+      width: 70px;
+  }
+
   #form {
     background-color: #EAEAEA;
     color: rgba(0,0,0,.05);
-    text-align: center;
+    text-align: left;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 10px 600px 10px 10px;
+    border: 0px 10px;
   }
 
   #button {
@@ -50,14 +55,46 @@ header > div {
     color: white;
     text-align: center;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 10px 0px;
   }
 
-.heading {
+.section1 heading {
+    font-size: 280%;
+    font-weight: bold;
     display: flex;
     justify-content: center;
-    align-items: ;
-    flex-direction: ;
+    padding-top: 50px;
+    /* align-items: flex-start; */
+}
+
+.section1 article {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0px 200px;
+  /* height: 600px; */
+}
+
+.section1 div {
+  display: flex;
+  justify-content: center;
+  padding: 30px 20px;
+}
+
+.section1 {
+  padding: 200px;
+  height: 600px;
+}
+
+#join-for-free {
+  padding: 10px 50px;
+}
+
+
+.hexagon {
+  height: 170px;
 }
 
 #seeplans {
@@ -68,11 +105,20 @@ header > div {
     padding: 10px 30px;
 }
 
-.section2 .heading {
+.section2 heading {
     background-color: rgba(255,204,53,.4);
+    font-weight: bold;
+    font-size: 120%;
     transform: skew(9deg,0deg);
     font-style: italic;
-    margin ;
+    margin 5px 30px;
+}
+
+.section2 article {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0px 150px;
 }
 
 .section2 {
@@ -80,12 +126,51 @@ header > div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 100px 0px;
 }
 
-.section3 .heading {
+.zero-configuration {
+  height: 30px;
+}
+
+.section3 heading {
     color: #ED1C24;
 }
 
+.section3 div {
+
+}
+
+.section3 {
+  display: flex;
+  padding: 50px;
+}
+
+.team-management {
+  height: 30px;
+}
+
+.familiar-features {
+  height: 30px;
+}
+
+.npm-audit {
+  height: 30px;
+}
+
+#create-org-button a {
+  text-decoration: none;
+  color: white;
+}
+
 #create-org-button {
-    color: white;
+  display: flex;
+  align-items: flex-end;
+  padding-top: 0px;
+  justify-content: center;
+  
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
 }
